@@ -42,4 +42,8 @@
 		</plugins>
 	</build>
 
+	<scm>
+		<developerConnection>scm:git:https://github.com/irenak-github/sfg-pet-clinic.git</developerConnection>
+	</scm>
+
 </project>
