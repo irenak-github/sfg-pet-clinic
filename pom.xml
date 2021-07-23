@@ -28,12 +28,9 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5.3</version>
 				<configuration>
 					<goals>install</goals>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
@@ -45,6 +42,6 @@
 	<scm>
 		<developerConnection>scm:git:https://github.com/irenak-github/sfg-pet-clinic.git</developerConnection>
 	  <tag>HEAD</tag>
-  </scm>
+  	</scm>
 
 </project>
