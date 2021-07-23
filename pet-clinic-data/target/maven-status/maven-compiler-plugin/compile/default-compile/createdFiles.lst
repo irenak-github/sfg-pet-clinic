@@ -1,5 +1,14 @@
-irena\springframework\sfgpetclinic\model\Owner.class
 irena\springframework\sfgpetclinic\model\Vet.class
+irena\springframework\sfgpetclinic\services\CrudService.class
+irena\springframework\sfgpetclinic\services\PetService.class
 irena\springframework\sfgpetclinic\model\PetType.class
+irena\springframework\sfgpetclinic\services\map\AbstractMapService.class
+irena\springframework\sfgpetclinic\services\map\OwnerServiceMap.class
+irena\springframework\sfgpetclinic\services\map\PetServiceMap.class
+irena\springframework\sfgpetclinic\services\VetService.class
 irena\springframework\sfgpetclinic\model\Pet.class
+irena\springframework\sfgpetclinic\services\OwnerService.class
+irena\springframework\sfgpetclinic\model\BaseEntity.class
+irena\springframework\sfgpetclinic\model\Owner.class
+irena\springframework\sfgpetclinic\services\map\VetServiceMap.class
 irena\springframework\sfgpetclinic\model\Person.class
