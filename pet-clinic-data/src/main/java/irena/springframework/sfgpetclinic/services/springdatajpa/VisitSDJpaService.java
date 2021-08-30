@@ -23,7 +23,7 @@ public class VisitSDJpaService implements VisitService {
     public Set<Visit> findAll() {
         Set<Visit> visits = new HashSet<>();
         visitRepository.findAll().forEach(visits::add);
-        return null;
+        return visits;
     }
 
     @Override
@@ -32,13 +32,13 @@ public class VisitSDJpaService implements VisitService {
     }
 
     @Override
-    public Visit save(Visit visit) {
-        return visitRepository.save(visit);
+    public Visit save(Visit object) {
+        return visitRepository.save(object);
     }
 
     @Override
-    public void delete(Visit visit) {
-        visitRepository.delete(visit);
+    public void delete(Visit object) {
+        visitRepository.delete(object);
     }
 
     @Override

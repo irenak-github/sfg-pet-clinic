@@ -13,7 +13,7 @@ import java.util.Set;
 @Profile({"default", "map"})
 public class VetMapService extends AbstractMapService<Vet, Long> implements VetService {
 
-    private SpecialityService specialityService;
+    private final SpecialityService specialityService;
 
     public VetMapService(SpecialityService specialityService) {
         this.specialityService = specialityService;
